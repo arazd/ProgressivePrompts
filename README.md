@@ -2,7 +2,7 @@
 
 This repo includes an original implementation of Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis and Amjad Almahairi. ["Progressive Prompts: Continual Learning for Language Models without Forgetting"](https://openreview.net/pdf?id=UJTgQBc91_), 2022.
 
-## :boom: Introduction
+## :star2: Introduction
 We introduce Progressive Prompts – a novel Continual Learning (CL) approach for language models. Our
 method is inspired by progressive networks, but is significantly more memory-efficient - it
 only learns a fixed number of tokens, or prompt, for each new task. Learning a prompt to adapt
@@ -24,8 +24,17 @@ This setup requires repeating input tokens for each task. In Progressive Prompts
 input and progressively append new prompt for each new task. Prior task prompts are not modified
 by the addition of new prompts.*
 
-## :open_file_folder: What's in this repository
+## :question: What's in this repository
 
 ## :wrench: Installation
 
+The configuration keys are as follows:
+| Argument |   Default     |  Description |
+|----------|:-------------:|------:   |
+| col 1 is |  left-aligned | $1600    |
+| col 2 is |    centered   |   $12.   |
+| col 3 is | right-aligned |    $1    |
 ## :zap: How to run 
+
+
+**Note**: if you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue.
