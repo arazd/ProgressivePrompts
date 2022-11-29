@@ -9,8 +9,8 @@ only learns a fixed number of tokens, or prompt, for each new task. In Progressi
 
 Our method can: 
 
-1) *alleviate catastrophic forgetting* by preserving the knowledge acquired in previous prompts, and 
-2) *transfer knowledge to future tasks* by sequentially learning new prompts given
+1) **alleviate catastrophic forgetting** by preserving the knowledge acquired in previous prompts, and 
+2) **transfer knowledge to future tasks** by sequentially learning new prompts given
 previous ones. 
 
 
