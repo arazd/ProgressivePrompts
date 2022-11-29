@@ -3,8 +3,8 @@
 This repo includes an original implementation of Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis and Amjad Almahairi. ["Progressive Prompts: Continual Learning for Language Models without Forgetting"](https://openreview.net/pdf?id=UJTgQBc91_), 2022.
 
 ### Table of contents
-* [Introduction](#-:star2:-Introduction)
-* [Installation](#-:wrench:-Installation)
+* [Introduction](#:star2:-introduction)
+* [Installation](#:wrench:-installation)
 
 ## :star2: Introduction
 We introduce **Progressive Prompts** – a novel Continual Learning (CL) approach for language models. Our
