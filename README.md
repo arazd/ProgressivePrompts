@@ -4,7 +4,10 @@ This repo includes an original implementation of Anastasia Razdaibiedina, Yuning
 
 ### Table of contents
 * [Introduction](#star2-introduction)
-* [Installation](#:wrench:-installation)
+* [What's in this repository](#question-whats-in-this-repository)
+* [Installation](#wrench-installation)
+* [How to run](#zap-how-to-run) 
+
 
 ## :star2: Introduction
 We introduce **Progressive Prompts** – a novel Continual Learning (CL) approach for language models. Our
