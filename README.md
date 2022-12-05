@@ -11,13 +11,12 @@ This repo includes an original implementation of Anastasia Razdaibiedina, Yuning
 
 ## :star2: Introduction
 We introduce **Progressive Prompts** – a novel Continual Learning (CL) approach for language models. Our
-method is inspired by progressive networks, but is significantly more memory-efficient - it
-only learns a fixed number of tokens, or prompt, for each new task. In Progressive Prompts, we learn a separate prompt for each incoming task and sequentially concatenate it with previously learned prompts. 
+method is inspired by progressive networks ([A. Rusu et al., NeurIPS 2017](https://arxiv.org/pdf/1606.04671.pdf)), but is significantly more memory-efficient. In Progressive Prompts, we learn a separate set of virtual tokens, or ***prompt***, for each incoming task and sequentially concatenate it with previously learned prompts. 
 
 Our method can: 
 
-1) **alleviate catastrophic forgetting** by preserving the knowledge acquired in previous prompts, and 
-2) **transfer knowledge to future tasks** by sequentially learning new prompts given
+1) **alleviate catastrophic forgetting**; since it preserves the knowledge acquired in previous prompts, and 
+2) **transfer knowledge to future tasks**; since new prompts are sequentially concatenated with all prior prompts;
 previous ones. 
 
 
