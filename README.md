@@ -15,10 +15,8 @@ method is inspired by progressive networks ([A. Rusu et al., NeurIPS 2017](https
 
 Our method can: 
 
-1) **alleviate catastrophic forgetting**; since it preserves the knowledge acquired in previous prompts, and 
-2) **transfer knowledge to future tasks**; since new prompts are sequentially concatenated with all prior prompts;
-previous ones. 
-
+1) **alleviate catastrophic forgetting**; since it preserves the knowledge acquired by previous prompts, and 
+2) **transfer knowledge to future tasks**; since new prompts are sequentially concatenated with all prior prompts.
 
 ![Progressive Prompts schematics](/images/illustration.png)
 Figure: *Illustrating our proposed method **Progressive Prompts** and contrasting it with a simple
