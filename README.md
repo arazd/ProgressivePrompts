@@ -91,8 +91,11 @@ conda activate nlp
 
 ## :zap: How to run 
 
+For example, to run 
 ```bash
-python train_t5_cl.py --task_list cb --prefix_len 10 --save_name cb_k1000_10epochs_progTEST --select_k_per_class 1000 --num_epochs 10
+python train_t5_cl.py --task_list imdb cb sst2 dbpedia_14 --prefix_len 10 --select_k_per_class 1000 \
+--lr 0.3 --num_epochs 10 --freeze_weights 1 --model_name t5-large --early_stopping 1 \
+--save_name T5_experiment --save_dir my_path_to_save_directory
 ```
 <!--
 The configuration keys are as follows:
