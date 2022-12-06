@@ -45,15 +45,15 @@ Step-by-step instructions to get you running Progressive Prompts:
 
        $ git clone https://github.com/arazd/ProgressivePrompts
 
-       A folder called ```ProgressivePrompts``` with all the codebase should appear.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
 2) **Install the required packages**
 
-       You can re-create our conda enviroment from yaml file:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can re-create our conda enviroment from yaml file:
 
        $ conda env create -f environment.yaml
 
-       You conda should start downloading and extracting packages. This can take ~15-20 minutes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You conda should start downloading and extracting packages. This can take ~15-20 minutes.
 
 The configuration keys are as follows:
 | Argument |   Default     |  Description |
