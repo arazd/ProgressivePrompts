@@ -91,11 +91,16 @@ conda activate nlp
 
 ## :zap: How to run 
 
+```bash
+python train_t5_cl.py --task_list cb --prefix_len 10 --save_name cb_k1000_10epochs_progTEST --select_k_per_class 1000 --num_epochs 10
+```
+<!--
 The configuration keys are as follows:
 | Argument |   Default     |  Description |
 |----------|:-------------:|------:   |
 | col 1 is |  left-aligned | $1600    |
 | col 2 is |    centered   |   $12.   |
 | col 3 is | right-aligned |    $1    |
+-->
 
 **Note**: if you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue. 
