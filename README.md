@@ -49,9 +49,10 @@ git clone https://github.com/arazd/ProgressivePrompts
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
 2) **Install the required packages**
-Make sure that you have Anaconda installed. If not - follow this [miniconda installation](https://docs.conda.io/en/latest/miniconda.html).
 
-To run Progressive Prompts code on GPU, make sure that you have a CUDA capable GPU and the [drivers](https://www.nvidia.com/download/index.aspx?lang=en-us) for your GPU are up to date. In our implementation, we used and CUDA 11.0.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make sure that you have Anaconda installed. If not - follow this [miniconda installation](https://docs.conda.io/en/latest/miniconda.html).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To run Progressive Prompts code on GPU, make sure that you have a CUDA capable GPU and the [drivers](https://www.nvidia.com/download/index.aspx?lang=en-us) for your GPU are up to date. In our implementation, we used and CUDA 11.0.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can re-create our conda enviroment from ```environment.yaml``` file:
 
@@ -63,7 +64,8 @@ conda env create -f environment.yaml
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You conda should start downloading and extracting packages. This can take ~15-20 minutes.
 
 3) **Activate the environment**
-Your environment should be called ```nlp```, and you can activate now it to run the scripts:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your environment should be called ```nlp```, and you can activate now it to run the scripts:
 
 ```console
 conda activate nlp
