@@ -35,6 +35,7 @@ This is our code structure:
       |_t5_dataset.py --> T5 Dataset class for reading and processing datasets
       |_train_t5_cl.py --> Model class for T5 with prompt tuning and continual learning functions
       |_t5_continual.py --> Code to run continual learning experiments with T5
+      
 |_BERT_codebase/
       |_dataset_utils.py --> BERT Dataset class for reading and processing datasets
       |_model_utils.py --> Model class for BERT with prompt tuning and fine-tuning functions
