@@ -94,7 +94,8 @@ conda activate nlp
 For example, to run Progressive Prompts with T5-large on four tasks (IMDb, CB, SST-2 and DbPedia):
 ```bash
 python train_t5_cl.py --task_list imdb cb sst2 dbpedia_14 --select_k_per_class 1000 \
---lr 0.3 --num_epochs 10 --freeze_weights 1 --prefix_len 10 --model_name t5-large --early_stopping 1 \
+--lr 0.3 --num_epochs 10 --freeze_weights 1 --prefix_len 10 \
+--model_name t5-large --early_stopping 1 \
 --save_name T5_experiment --save_dir my_path_to_save_directory
 ```
 
@@ -105,8 +106,9 @@ For other arguments and their descriptions, please check ```T5_codebase/train_t5
 To Progressive Prompts on the same four tasks with BERT-base:
 ```bash
 python train_cl2.py --task_list imdb cb sst2 dbpedia_14  --select_k_per_class 1000 \
---lr 3e-5 --num_epochs 50 --freeze_weights 1 --freeze_except word_embeddings --prompt_tuning 1 --prefix_len 10
---seq_len 450 --early_stopping 1 --one_head 0 \
+--lr 3e-5 --num_epochs 50 --freeze_weights 1 --freeze_except word_embeddings \
+--prompt_tuning 1 --prefix_len 10 --seq_len 450 --one_head 0 \
+--model_name bert-base-uncased --early_stopping 1 \
 --save_name BERT_experiment --save_dir my_path_to_save_directory
 ```
 
