@@ -41,7 +41,7 @@ Requirements:
 
 Step-by-step instructions to get you running Progressive Prompts:
 
-### 1 Clone this repository to your local machine:
+### 1) Clone this repository to your local machine:
 
 ```console
 git clone https://github.com/arazd/ProgressivePrompts    
@@ -49,7 +49,7 @@ git clone https://github.com/arazd/ProgressivePrompts
 
 A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
-### 2 Install the required packages:
+### 2) Install the required packages:
 
 Make sure that you have Anaconda installed. If not - follow this [miniconda installation](https://docs.conda.io/en/latest/miniconda.html).
 
@@ -64,7 +64,7 @@ conda env create -f environment.yaml
 
 Your conda should start downloading and extracting packages. This can take ~15-20 minutes.
 
-### 3 Activate the environment:
+### 3) Activate the environment:
 
 Your environment should be called ```nlp```, and you can activate now it to run the scripts:
 
