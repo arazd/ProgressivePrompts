@@ -60,7 +60,7 @@ Step-by-step instructions to get you running Progressive Prompts:
 
 ### 1) Clone this repository to your local machine:
 
-```console
+```bash
 git clone https://github.com/arazd/ProgressivePrompts    
 ```  
 
@@ -74,7 +74,7 @@ To run Progressive Prompts code on GPU, make sure that you have a CUDA capable G
 
 You can re-create our conda enviroment from ```environment.yaml``` file:
 
-```console
+```bash
 cd ProgressivePrompts
 conda env create -f environment.yaml
 ```
@@ -85,14 +85,14 @@ Your conda should start downloading and extracting packages. This can take ~15-2
 
 Your environment should be called ```nlp```, and you can activate now it to run the scripts:
 
-```console
+```bash
 conda activate nlp
 ```
 
 ## :zap: How to run 
 
 For example, to run Progressive Prompts with T5-large on four tasks (IMDb, CB, SST-2 and DbPedia):
-```console
+```bash
 cd T5_codebase
 
 python train_t5_cl.py --task_list imdb cb sst2 dbpedia_14 --select_k_per_class 1000 \
@@ -106,7 +106,7 @@ For other arguments and their descriptions, please check ```T5_codebase/train_t5
 
 
 To Progressive Prompts on the same four tasks with BERT-base:
-```console
+```bash
 cd BERT_codebase
 
 python train_cl2.py --task_list imdb cb sst2 dbpedia_14  --select_k_per_class 1000 \
