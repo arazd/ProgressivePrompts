@@ -91,12 +91,30 @@ conda activate nlp
 
 ## :zap: How to run 
 
-For example, to run 
+For example, to run Progressive Prompts with T5-large on four tasks (IMDb, CB, SST-2 and DbPedia):
 ```bash
-python train_t5_cl.py --task_list imdb cb sst2 dbpedia_14 --prefix_len 10 --select_k_per_class 1000 \
---lr 0.3 --num_epochs 10 --freeze_weights 1 --model_name t5-large --early_stopping 1 \
+python train_t5_cl.py --task_list imdb cb sst2 dbpedia_14 --select_k_per_class 1000 \
+--lr 0.3 --num_epochs 10 --freeze_weights 1 --prefix_len 10 --model_name t5-large --early_stopping 1 \
 --save_name T5_experiment --save_dir my_path_to_save_directory
 ```
+
+In the example above, we froze weights and trained a prompt of size 10 (per task) for 10 epochs. We also limited data to 1000 samples per class. 
+For other arguments and their descriptions, please check ```T5_codebase/train_t5_cl.py``` file.
+
+
+To Progressive Prompts on the same four tasks with BERT-base:
+```bash
+python train_cl2.py --task_list imdb cb sst2 dbpedia_14  --select_k_per_class 1000 \
+--lr 3e-5 --num_epochs 50 --freeze_weights 1 --freeze_except word_embeddings --prompt_tuning 1 --prefix_len 10
+--seq_len 450 --early_stopping 1 --one_head 0 \
+--save_name BERT_experiment --save_dir my_path_to_save_directory
+```
+
+Note how soft prompts for BERT need to be trained with smaller learning rate and higher number of epochs. 
+We also have some new BERT-specific arguments, one_head controls whether to use a separate head for each task, freeze_except allows to freeze all weights
+except word embeddings (since we include prompt tokens into vocabulary for BERT implementation), seq_len controls max input length (without prompt), prompt_tuning flag signals if we are doing prompt tuning.
+For other arguments and their descriptions, please check ```BERT_codebase/train_cl2.py``` file.
+
 <!--
 The configuration keys are as follows:
 | Argument |   Default     |  Description |
