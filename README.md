@@ -43,7 +43,8 @@ Step-by-step instructions to get you running Progressive Prompts:
 
 1) **Clone this repository to your local machine**:
 
-    ```git clone https://github.com/arazd/ProgressivePrompts```
+    git clone https://github.com/arazd/ProgressivePrompts    
+    
 
     A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
