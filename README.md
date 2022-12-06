@@ -50,8 +50,8 @@ Step-by-step instructions to get you running Progressive Prompts:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can re-create our conda enviroment from yaml file:
 
-    ```cd ProgressivePrompts
-    conda env create -f environment.yaml```
+    cd ProgressivePrompts
+    conda env create -f environment.yaml
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You conda should start downloading and extracting packages. This can take ~15-20 minutes.
 
