@@ -28,6 +28,22 @@ by the addition of new prompts.*
 
 ## :question: What's in this repository
 
+This is our code structure:
+
+```
+|_T5_codebase/
+      |_t5_dataset.py --> T5 Dataset class for reading and processing datasets
+      |_train_t5_cl.py --> Model class for T5 with prompt tuning and continual learning functions
+      |_t5_continual.py --> Code to run continual learning experiments with T5
+|_BERT_codebase/
+      |_dataset_utils.py --> BERT Dataset class for reading and processing datasets
+      |_model_utils.py --> Model class for BERT with prompt tuning and fine-tuning functions
+      |_continual_learning_utils.py --> Continual Learner class for Progressive Prompts (with BERT)
+      |_continual_learning_one_head.py --> Continual Learner class for regularization-based CL approaches for BERT 
+      |_train_cl2.py --> Code to run continual learning experiments with BERT
+```
+
+
 ## :wrench: Installation
 
 Our implementation is based on PyTorch and HuggingFace (transformers + datasets). 
