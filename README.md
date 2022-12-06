@@ -46,8 +46,7 @@ Step-by-step instructions to get you running Progressive Prompts:
 ```console
 git clone https://github.com/arazd/ProgressivePrompts    
 ```  
-
-    A folder called ```ProgressivePrompts``` with all the codebase should appear.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
 2) **Install the required packages**
 Make sure that you have Anaconda installed. If not - follow this [miniconda installation](https://docs.conda.io/en/latest/miniconda.html).
@@ -56,8 +55,10 @@ To run Progressive Prompts code on GPU, make sure that you have a CUDA capable G
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can re-create our conda enviroment from ```environment.yaml``` file:
 
-    cd ProgressivePrompts
-    conda env create -f environment.yaml
+```console
+cd ProgressivePrompts
+conda env create -f environment.yaml
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You conda should start downloading and extracting packages. This can take ~15-20 minutes.
 
