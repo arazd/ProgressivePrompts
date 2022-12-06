@@ -42,18 +42,29 @@ Requirements:
 Step-by-step instructions to get you running Progressive Prompts:
 
 1) **Clone this repository to your local machine**:
-    ```git clone https://github.com/arazd/ProgressivePrompts```
+
+    git clone https://github.com/arazd/ProgressivePrompts
 
     A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
 2) **Install the required packages**
+Make sure that you have Anaconda installed. If not - follow this [miniconda installation](https://docs.conda.io/en/latest/miniconda.html).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can re-create our conda enviroment from yaml file:
+To run Progressive Prompts code on GPU, make sure that you have a CUDA capable GPU and the [drivers](https://www.nvidia.com/download/index.aspx?lang=en-us) for your GPU are up to date. In our implementation, we used and CUDA 11.0.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can re-create our conda enviroment from ```environment.yaml``` file:
 
     cd ProgressivePrompts
     conda env create -f environment.yaml
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You conda should start downloading and extracting packages. This can take ~15-20 minutes.
+
+3) **Activate the environment**
+Your environment should be called ```nlp```, and you can activate now it to run the scripts:
+
+    conda activate nlp
+
+## :zap: How to run 
 
 The configuration keys are as follows:
 | Argument |   Default     |  Description |
@@ -61,7 +72,5 @@ The configuration keys are as follows:
 | col 1 is |  left-aligned | $1600    |
 | col 2 is |    centered   |   $12.   |
 | col 3 is | right-aligned |    $1    |
-## :zap: How to run 
 
-
-**Note**: if you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue.
+**Note**: if you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue. 
