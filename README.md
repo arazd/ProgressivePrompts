@@ -43,7 +43,7 @@ Step-by-step instructions to get you running Progressive Prompts:
 
 1) **Clone this repository to your local machine**:
 
-    git clone https://github.com/arazd/ProgressivePrompts
+    ```git clone https://github.com/arazd/ProgressivePrompts```
 
     A folder called ```ProgressivePrompts``` with all the codebase should appear.
 
@@ -62,7 +62,7 @@ To run Progressive Prompts code on GPU, make sure that you have a CUDA capable G
 3) **Activate the environment**
 Your environment should be called ```nlp```, and you can activate now it to run the scripts:
 
-    conda activate nlp
+    ```conda activate nlp```
 
 ## :zap: How to run 
 
