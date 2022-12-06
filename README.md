@@ -30,6 +30,29 @@ by the addition of new prompts.*
 
 ## :wrench: Installation
 
+Our implementation is based on PyTorch and HuggingFace (transformers + datasets). 
+
+Requirements:
+* Python 3.8.5
+* Pytorch 1.10.0
+* transformers 4.20.0
+* datasets 2.3.2
+* tqdm, sklearn, numpy, pandas
+
+Step-by-step instructions to get you running Progressive Prompts:
+
+1. *Clone this repository to your local machine*:
+``` $ git clone https://github.com/arazd/ProgressivePrompts ```
+
+A folder called ```ProgressivePrompts`` with all the codebase should appear.
+
+2. *Install the required packages*
+
+You can re-create our conda enviroment from yaml file:
+``` $ conda env create -f environment.yaml ```
+
+You conda should start downloading and extracting packages. This can take ~15-20 minutes.
+
 The configuration keys are as follows:
 | Argument |   Default     |  Description |
 |----------|:-------------:|------:   |
