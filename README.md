@@ -122,8 +122,7 @@ python train_cl2.py --task_list imdb cb sst2 dbpedia_14  --select_k_per_class 10
 ```
 
 Note how soft prompts for BERT need to be trained with smaller learning rate and higher number of epochs. 
-We also have some new BERT-specific arguments, one_head controls whether to use a separate head for each task, freeze_except allows to freeze all weights
-except word embeddings (since we include prompt tokens into vocabulary for BERT implementation), seq_len controls max input length (without prompt), prompt_tuning flag signals if we are doing prompt tuning.
+We also have some other BERT-specific arguments, one_head controls whether to use a separate head for each task, freeze_except allows to freeze all weights except word embeddings (since we include prompt tokens into vocabulary for BERT implementation), seq_len controls max input length (without prompt), prompt_tuning flag signals if we are doing prompt tuning.
 For other arguments and their descriptions, please check ```BERT_codebase/train_cl2.py``` file.
 
 <!--
