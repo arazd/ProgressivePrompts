@@ -42,6 +42,13 @@ This is our code structure:
       |_continual_learning_utils.py --> Continual Learner class for Progressive Prompts (with BERT)
       |_continual_learning_one_head.py --> Continual Learner class for regularization-based CL approaches for BERT 
       |_train_cl2.py --> Code to run continual learning experiments with BERT
+      
+|_datasets/src/data/ --> CL datasets from Zhang et. al., 2015 (some of them are not available through HuggingFace)
+      |_amazon --> Amazon reviews (not available through HuggingFace datasets)
+      |_ag --> Ag News
+      |_yahoo --> Yahoo Q&A
+      |_yelp --> Yelp reviews
+      |_db --> DbPedia
 ```
 
 
