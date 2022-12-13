@@ -43,7 +43,7 @@ This is our code structure:
       |_continual_learning_one_head.py --> Continual Learner class for regularization-based CL approaches for BERT 
       |_train_cl2.py --> Code to run continual learning experiments with BERT
       
-|_datasets/src/data/ --> CL datasets from Zhang et. al., 2015 (some of them are not available through HuggingFace)
+|_datasets/src/data/ --> CL datasets from Zhang et. al., 2015
       |_amazon --> Amazon reviews (not available through HuggingFace datasets)
       |_ag --> Ag News
       |_yahoo --> Yahoo Q&A
@@ -51,6 +51,7 @@ This is our code structure:
       |_db --> DbPedia
 ```
 
+**Note**: we access most of the datasets for our experiments through HuggingFace datasets, including CL datasets from Zhang et. al., 2015. Since only one CL datasets from Zhang et. al. is not available on HuggingFace - Amazon Reviews, we uploaded its archived train / test data ```datasets/src/data/amazon/```. To access the rest of CL datasets (Yelp, Yahoo, AG, DbPedia), you can either use their HuggingFace names in our training script or download them from [http://goo.gl/JyCnZq](http://goo.gl/JyCnZq) to ```datasets/src/data/```.
 
 ## :wrench: Installation
 
