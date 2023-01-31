@@ -9,6 +9,7 @@ This repo includes an original implementation of Anastasia Razdaibiedina, Yuning
 * [What's in this repository](#question-whats-in-this-repository)
 * [Installation](#wrench-installation)
 * [How to run](#zap-how-to-run) 
+* [Contact](#raising_hand-questions)
 
 
 ## :star2: Introduction
@@ -140,7 +141,7 @@ The configuration keys are as follows:
 ## :raising_hand: Questions
 If you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue. 
 
-<--
+<!--
 ## :books: Citation
 If you use our code in your research, please cite our work:
 ```bibtex
