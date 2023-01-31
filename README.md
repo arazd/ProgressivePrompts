@@ -1,6 +1,6 @@
 # Progressive Prompts
 
-**Our work on Progressive Prompts is accepted to ICLR 2023! 🎉 **
+**Our work on Progressive Prompts is accepted to ICLR 2023!** 🎉
 
 This repo includes an original implementation of Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis and Amjad Almahairi. ["Progressive Prompts: Continual Learning for Language Models without Forgetting"](https://openreview.net/pdf?id=UJTgQBc91_), 2022.
 
