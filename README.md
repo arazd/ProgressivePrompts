@@ -136,4 +136,19 @@ The configuration keys are as follows:
 | col 3 is | right-aligned |    $1    |
 -->
 
-**Note**: if you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue. 
+
+## :raising_hand: Questions
+If you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue. 
+
+<--
+## :books: Citation
+If you use our code in your research, please cite our work:
+```bibtex
+@inproceedings{razdaibiedina2023progressive,
+   title={Progressive Prompts: Continual Learning for Language Models},
+   author={???},
+   booktitle={International Conference on Learning Representations},
+   year={2023}
+}
+```
+-->
