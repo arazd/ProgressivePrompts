@@ -113,7 +113,7 @@ In the example above, we froze weights and trained a prompt of size 10 (per task
 For other arguments and their descriptions, please check ```T5_codebase/train_t5_cl.py``` file.
 
 
-To Progressive Prompts on the same four tasks with BERT-base:
+To train Progressive Prompts on the same four tasks with BERT-base:
 ```bash
 cd BERT_codebase
 
