@@ -36,8 +36,8 @@ This is our code structure:
 ```
 |_T5_codebase/
       |_t5_dataset.py --> T5 Dataset class for reading and processing datasets
-      |_train_t5_cl.py --> Model class for T5 with prompt tuning and continual learning functions
-      |_t5_continual.py --> Code to run continual learning experiments with T5
+      |_t5_continual.py --> Model class for T5 with prompt tuning and continual learning functions
+      |_train_t5_cl.py --> Code to run continual learning experiments with T5
       
 |_BERT_codebase/
       |_dataset_utils.py --> BERT Dataset class for reading and processing datasets
@@ -141,15 +141,22 @@ The configuration keys are as follows:
 ## :raising_hand: Questions
 If you have any questions about the paper or code, please contact Anastasia Razdaibiedina (anastasia.razdaibiedina[at]mail.utoronto.ca) or open an issue. 
 
-<!--
 ## :books: Citation
 If you use our code in your research, please cite our work:
 ```bibtex
 @inproceedings{razdaibiedina2023progressive,
    title={Progressive Prompts: Continual Learning for Language Models},
-   author={???},
+   author={Razdaibiedina, Anastasia and Mao, Yuning and Hou, Rui and Khabsa, Madian and Lewis, Mike and Almahairi, Amjad},
    booktitle={International Conference on Learning Representations},
    year={2023}
 }
 ```
+
+<!--
+@article{razdaibiedina2023progressive,
+  title={Progressive Prompts: Continual Learning for Language Models},
+  author={Razdaibiedina, Anastasia and Mao, Yuning and Hou, Rui and Khabsa, Madian and Lewis, Mike and Almahairi, Amjad},
+  journal={arXiv preprint arXiv:2301.12314},
+  year={2023}
+}
 -->
