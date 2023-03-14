@@ -91,7 +91,7 @@ Your conda should start downloading and extracting packages. This can take ~15-2
 
 ### 3) Activate the environment:
 
-Your environment should be called ```nlp```, and you can activate now it to run the scripts:
+Your environment should be called ```nlp```, and you can activate it now to run the scripts:
 
 ```bash
 conda activate nlp
